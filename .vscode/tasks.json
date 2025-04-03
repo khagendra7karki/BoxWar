@@ -4,10 +4,16 @@
         {
             "label": "Start Extension Dev Envionment",
             "type": "shell",
-            "command": "git reset --hard",
+            "command": "git reset --hard HEAD",
             "problemMatcher": [],
             "runOptions": {
                 "runOn": "folderOpen"
+            },
+            "presentation": {
+                "close": true,
+                "reveal": "never",
+                "focus": false,
+                "panel": "dedicated",
             }
         }
     ]
